@@ -13,6 +13,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "prepare": "npm run prepare:default",
     "clean": "rimraf lib",
     "test": "jest",
     "test:ci": "ncp src/tests/.tests-config.tpl.js src/tests/.tests-config.js && npm run test",
